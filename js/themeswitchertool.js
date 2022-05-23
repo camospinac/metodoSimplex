@@ -7,12 +7,12 @@ $.fn.themeswitcher = function(settings) {
         width: 150,
         height: 200,
         buttonPreText: 'Inv. Operaciones',
-        closeOnSelect: true,
+        closeOnSelect: false,
         buttonHeight: 14,
         cookieName: '',
-        onOpen: function() {},
-        onClose: function() {},
-        onSelect: function() {}
+        onOpen: false,
+        onClose: false,
+        onSelect: false
     }, settings);
 
     //markup 
